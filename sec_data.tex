@@ -1,0 +1,39 @@
+\section{data}
+
+\subsection{data sources and collection}
+We leverage the following data sources in this analysis:
+\begin{center}
+  \begin{tabular}{| l | c | c |}
+    \hline
+    Variables &  Description & Source \\ \hline
+    $Forest Cover$ & NASA Long Term Data Record measurements of vegetative cover & http://ltdr.nascom.nasa.gov/cgi-bin/ltdr/ltdrPage.cgi \\ \hline
+    $World Bank Project Locations$ & Double-blind geocoded information on the geographic location of each World Bank project & http://aiddata.org/level1/geocoded/worldbank \\ \hline
+    $Distance to Rivers$ & The calculated average distance to all rivers & http://hydrosheds.cr.usgs.gov/index.php \\ \hline
+    $Distance to Commercial Rivers$ & Calculated average distance to all commercial rivers & http://hydrosheds.cr.usgs.gov/index.php  \\ \hline
+    $Distance to Roads$ &  Distance to nearest road & http://sedac.ciesin.columbia.edu/data/set/groads-global-roads-open-access-v1\\ \hline
+    $Elevation$ & Elevation data measured from the Shuttle Radar Topography Mission &http://www2.jpl.nasa.gov/srtm/\\ \hline
+    $Slope$ &  Slope data calculated based on the Shuttle Radar Topography Mission & http://www2.jpl.nasa.gov/srtm/\\ \hline
+    $Accesibility to Urban Areas$ & European Commission Joint Research Centre estimation of urban travel times. & http://forobs.jrc.ec.europa.eu/products/gam/download.php\\ \hline
+    $Population Density$ & Center for International Earth Science estimation of population density, derived from Nighttime Lights & http://sedac.ciesin.columbia.edu/data/collection/gpw-v3  \\ \hline
+    $Air Temperature$ & University of Delware Long term, global temperature data interpolated from weather station measurements. &http://climate.geog.udel.edu/~climate/ \\ \hline
+    $Precipitation$ & University of Delware Long term, global precipitation data interpolated from weather station measurements.&http://climate.geog.udel.edu/~climate/\\ 
+    \hline
+    
+  \end{tabular}
+\end{center}
+
+    
+\subsection{data pre-processing}
+  This analysis uses three key types of data: satellite data to measure vegetation, data on the geospatial locations of World Bank projects, and covariate datasets (the sources of which are detailed above). 
+Our primary variable of interest is the fluctuation of vegetation proximate to World Bank projects, which is derived from long-term satellite data (NASA 2015). 
+There are many different approaches to using satellite data to approximate vegetation on a global scale, and satellites have been taking imagery that can be used for this purpose for over three decades.  
+Of these approaches, the most frequently used is the Normalized Difference Vegetation Index (NDVI).  The NDVI is a metric that has been used since the early 1970s, and is one of the simplest and most frequently used approaches to approximating vegetative biomass.  
+NDVI measures the relative absorption and reflectance of red and near-infrared light from plants to quantify vegetation on a scale of -1 to 1, with vegetated areas falling between ~0.2 and 1. 
+The reflectance by chlorophyll is correlated with plant health, and multiple studies have illustrated that it is generally also correlated with plant biomass. 
+In other words, healthy vegetation and high plant biomass tend to result in high NDVI values (Dunbar 2009).  
+Using NDVI as an outcome measure has a number of other benefits, including the long and consistent time periods for which it has been calculated.  
+While the NDVI does have a number of challenges - including a propensity to saturate over densely vegetated regions, the potential for atmospheric noise (including clouds) to incorrectly offset values, and reflectances from bright soils providing misleading estimates - the popularity of this measurement has led to a number of improvements over time to offset many of these errors.  
+This is especially true of measurements from longer-term satellite records, such as those used in this analysis, produced from the MODIS and AVHRR satellite platforms (NASA 2015).
+\par
+The second primary dataset used in this analysis measures where - geographically - World Bank projects were located.  This dataset was produced by AidData (2016), relying on a double-blind coding system where two experts employ a defined hierarchy of geographic terms and independently assign uniform latitude and longitude coordinates, precision codes, and standardized place names to each geographic feature. If the two code rounds disagree, the project is moved into an arbitration round where a geocoding project manager reconciles the codes to assign a master set of geocodes for all of the locations described in the available project documentation. This approach also captures geographic information at several levels—coordinate, city, and administrative divisions—for each location, thereby allowing the data to be visualized and analyzed in different ways depending upon the geographic unit of interest. Once geographic features are assigned coordinates, coders specify a precision code that varies from 1 (exact point) to 9 (national-level project or program).
+AidData performs many procedures to ensure data quality, including de-duplication of projects and locations, correcting logical inconsistencies (e.g. making sure project start and end dates are in proper order), finding and correcting field and data type mismatches, correcting and aligning geocodes and project locations within country and administrative boundaries, validating place names and correcting gazetteer inconsistencies, deflating financial values to constant dollars across projects and years (where appropriate), strict version control of intermediate and draft data products, semantic versioning to delineate major and minor versions of various geocoded datasets, and final review by a multidisciplinary working group. 

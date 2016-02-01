@@ -1,0 +1,81 @@
+\section{methodology}
+
+\subsection{conditional average treatment effects}
+
+Suppose we have a data set with n iid units with $ i = 1, \cdots, n$, for each unit, it has a feature vector $X_{i}  \in [0,1]^d$, a response $Y_{i} \in \mathbb{R}$ and treatment indicator $W_{i} \in \{0,1\}$.\\
+For unit level causal effect, we can use Rubin causal model to estimate the average causal effect as shown in function \ref{eq:1},
+\begin{equation} \label{eq:1}
+\tau_{i} = Y_{i}(1) - Y_{i}(0) \\
+\end{equation}
+In this paper, we are interested in heterogenous causal effect as \ref{eq:2}, this estimator is proposed by \cite{RePEc:ecm:emetrp:v:71:y:2003:i:4:p:1161-1189},
+\begin{equation} \label{eq:2}
+\tau(x) = \mathbb{E} \big[{Y_{i}(1) - Y_{i}(0) \mid X_{i} = x}\big]\\
+\end{equation}
+The challenge is we know either $Y_{i}(0)$ or $Y_{i}(1)$, but not both at the same time. 
+We need to make a unconfoundness assumptions to estimate $\tau(x)$.
+\begin{equation} \label{eq:3}
+W_{i} \perp \left( Y_{i}(1), Y_{i}(0) \right)  \mid X_{i}\\
+\end{equation}
+Under the unconfoundness assumption, we can get the causal effect as 
+
+\begin{equation}\label{eq:3.5}
+\tau(x) = \mathbb{E} \big[   Y^{*} \mid X_{i} =  x\big] 
+\end{equation}
+where $Y^{*}$  is function \ref{eq:4}, $e(x)$ is function \ref{eq:4.5}, to estimate the propensity score, there are several ways for calculation such as \cite{rose:rubi:cent:1983}, \cite{HoImaKin07}, in this paper, we use logic regression to calculate the pscore.
+\begin{equation} \label{eq:4}
+Y_{i}^{*} =  Y_{i}^{obs} \cdot \frac{W_{i} - e(X_{i})}{e(X_{i}) \cdot (1 - e(X_{i}))} \\
+\end{equation}
+
+\begin{equation}\label{eq:4.5}
+e(x) = \mathbb{E} \big[  W_{i} \mid X_{i} =  x \big]
+\end{equation}
+
+\subsection{Causal Tree Model}
+We use regression tree to estimate the heterogeneous causal effects, the first step is to construct the tree. To construct the regression tree, we recursively partition the node until the size of the node is less than a threshold we set or the gain of split is negative.\\
+In classic regression tree, mean square error (MSE) is often used to as the criterion for node splitting, the average value within the node is used as the estimator. Following Asthey and Imbens \cite{1504.01132}, we use \ref{eq:5} as the estimator and we calculate the error of the node by summing $Y_{i} - \hat{\tau}(X_{i})$.
+\begin{equation} \label{eq:5}
+\begin{split}
+\hat{\tau}^{CT}(X_{i}) =  \frac{\sum_{i:X_{i} \in \mathbb{X}_{l}}  Y_{i}^{obs} \cdot W_{i} / \hat{e}(X_{i})  }{\sum_{i:X_{i} \in \mathbb{X}_{l}}  W_{i} / \hat{e}(X_{i})}  \\
+ - \frac{\sum_{i:X_{i} \in \mathbb{X}_{l}}  Y_{i}^{obs} \cdot (1 - W_{i}) / (1 - \hat{e}(X_{i}))  }{\sum_{i:X_{i} \in \mathbb{X}_{l}}  (1 - W_{i}) / (1 - \hat{e}(X_{i}))}
+ \end{split}
+\end{equation}
+
+\subsection{Pruning the tree}
+
+To avoid overfitting of the tree, we need to prune the tree. We use the minimal cost complexity pruning and we define it as \ref{eq:6}. $\alpha$ is the complexity parameter, with it we can construct the regression with the right size.
+\begin{equation}\label{eq:6}
+R_{\alpha}(T) = R(T) + \alpha \left|\tilde{T}\right|
+\end{equation}
+where R(T) is the resubstitution error estimate of tree T, $\left|\tilde{T}\right|$ is defined as the complexity of the tree, which is the number of leaves in the tree,\\
+To estimate the error of a node, we use function \ref{eq:7},
+\begin{equation}\label{eq:7}
+R(t) = \sum_{i=1}^{N}(Y_{i} - \hat{\tau}(X_{i}))
+\end{equation}
+where N is the total units in the nodes. \\
+
+To get a sequence of $\alpha$, we minimize function \ref{eq:8},
+\begin{equation}\label{eq:8}
+g(t,T) = \frac{R(t) - R(T_{t})}{\left|\tilde{T_{t}}\right| - 1}
+\end{equation}
+where $T_{t}$ is a subtree of T rooted at node t.\\
+We use the weakest link cutting to determine $\alpha$ and use it as the complexity parameter when we build the tree for the whole data set. 
+
+Because the tree structure is not stable, we use V-fold cross validation to estimate the errors for different $\alpha$.
+\begin{equation}\label{eq:9}
+R(T(\alpha)) = \frac{1}{N}\sum_{1}^{N}Err(\alpha;Y_{i}, X_{i})
+\end{equation}
+where $Err(\alpha;Y_{i}, X_{i})$  is the errors for construction the tree using $Y_{i}, X_{i}$ data with parameter $\alpha$. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

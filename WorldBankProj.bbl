@@ -1,0 +1,73 @@
+\begin{thebibliography}{10}
+
+\bibitem{1504.01132}
+S.~Athey and G.~Imbens.
+\newblock Recursive partitioning for heterogeneous causal effects, 2015.
+
+\bibitem{Breiman:2001:RF:570181.570182}
+L.~Breiman.
+\newblock Random forests.
+\newblock {\em Mach. Learn.}, 45(1):5--32, Oct. 2001.
+
+\bibitem{breiman1984classification}
+L.~Breiman, J.~Friedman, C.~Stone, and R.~Olshen.
+\newblock {\em Classification and Regression Trees}.
+\newblock The Wadsworth and Brooks-Cole statistics-probability series. Taylor
+  \& Francis, 1984.
+
+\bibitem{Denil:2014}
+M.~Denil, D.~Matheson, and N.~de~Freitas.
+\newblock Narrowing the gap: Random forests in theory and in practice.
+\newblock In {\em International Conference on Machine Learning (ICML)}, 2014.
+
+\bibitem{RePEc:ecm:emetrp:v:71:y:2003:i:4:p:1161-1189}
+K.~Hirano, G.~Imbens, and G.~Ridder.
+\newblock Efficient estimation of average treatment effects using the estimated
+  propensity score.
+\newblock {\em Econometrica}, 71(4):1161--1189, 2003.
+
+\bibitem{HoImaKin07}
+D.~Ho, K.~Imai, G.~King, and E.~Stuart.
+\newblock Matching as nonparametric preprocessing for reducing model dependence
+  in parametric causal inference.
+\newblock {\em Political Analysis}, 15:199{\textendash}236, 2007.
+
+\bibitem{Imbens:2015:CIS:2764565}
+G.~W. Imbens and D.~B. Rubin.
+\newblock {\em Causal Inference for Statistics, Social, and Biomedical
+  Sciences: An Introduction}.
+\newblock Cambridge University Press, New York, NY, USA, 2015.
+
+\bibitem{Pearl:2000:CMR:331969}
+J.~Pearl.
+\newblock {\em Causality: Models, Reasoning, and Inference}.
+\newblock Cambridge University Press, New York, NY, USA, 2000.
+
+\bibitem{rose:rubi:cent:1983}
+P.~R. Rosenbaum and D.~B. Rubin.
+\newblock The central role of the propensity score in observational studies for
+  causal effects.
+\newblock {\em Biometrika}, 70:41--55, 1983.
+
+\bibitem{journals/jmlr/SuTWNL09}
+X.~Su, C.-L. Tsai, H.~Wang, D.~M. Nickerson, and B.~Li.
+\newblock Subgroup analysis via recursive partitioning.
+\newblock {\em Journal of Machine Learning Research}, 10:141--158, 2009.
+
+\bibitem{Tibshirani94regressionshrinkage}
+R.~Tibshirani.
+\newblock Regression shrinkage and selection via the lasso.
+\newblock {\em Journal of the Royal Statistical Society, Series B},
+  58:267--288, 1994.
+
+\bibitem{Vapnik1998}
+V.~N. Vapnik.
+\newblock {\em Statistical Learning Theory}.
+\newblock Wiley-Interscience, 1998.
+
+\bibitem{1510.04342}
+S.~Wager and S.~Athey.
+\newblock Estimation and inference of heterogeneous treatment effects using
+  random forests, 2015.
+
+\end{thebibliography}

@@ -1,0 +1,21 @@
+\section{experiments}
+
+
+
+\subsection{Simulation Experiments}
+
+
+
+\subsection{World Bank aid data}
+
+In this subsection, we examine an application of these methods to examine the research question: "How effective have the environmental safeguards of World Bank projects been in preventing deforestation?".  
+These safeguards include environmental education and impact assessment programs, reforestation activities, and other environmental protection activities (Nielson and Tierney 2003; Ledec and Posas 2003; Quintero 2007). 
+To examine the impact these activities have had on forest cover, we seek to isolate the causal impact of any given World Bank project on the forest cover - measured using satellite data - which it is proximate to.  
+\par
+In this paper, we specifically examine the benefits which causal trees have for examining causal impacts at a global scale.  
+Because World Bank projects exist in highly heterogeneous environments (see figure X), traditional causal methods which identify a single effect across the entire sample - without identifying impacts unique to meaningful sub populations - are insufficient.  
+In this approach, we illustrate that the causal tree enables an examination of impact on sub-populations within a given dataset, without the a-priori definition of those sub-populations.
+We pose that it is a more effective and accurate way to understand the geographically varied impacts of World Bank projects.
+\par
+
+Our method is based on the R package rpart. Rpart support user defined split function, therefor, we can use the split criterion function \ref{eq:5}. To improve the efficiency of the r program, we use rcpp and call C++ functions inside the split and evaluation function for each node in the tree. To further improve the c++ functions, we use openmp inside the C++ functions. 
