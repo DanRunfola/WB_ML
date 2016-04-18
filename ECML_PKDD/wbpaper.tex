@@ -1,0 +1,120 @@
+
+%%%%%%%%%%%%%%%%%%%%%%% file typeinst.tex %%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This is the LaTeX source for the instructions to authors using
+% the LaTeX document class 'llncs.cls' for contributions to
+% the Lecture Notes in Computer Sciences series.
+% http://www.springer.com/lncs       Springer Heidelberg 2006/05/04
+%
+% It may be used as a template for your own input - copy it
+% to a new file with a new name and use it as the basis
+% for your article.
+%
+% NB: the document class 'llncs' has its own and detailed documentation, see
+% ftp://ftp.springer.de/data/pubftp/pub/tex/latex/llncs/latex2e/llncsdoc.pdf
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[runningheads,a4paper]{llncs}
+
+\usepackage{amssymb}
+\usepackage{subfig}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{caption}
+\setcounter{tocdepth}{3}
+\usepackage{graphicx}
+\usepackage{caption}
+%\usepackage{subcaption}
+
+\usepackage{url}
+\urldef{\mailsa}\path|{alfred.hofmann, ursula.barth, ingrid.haas, frank.holzwarth,|
+\urldef{\mailsb}\path|anna.kramer, leonie.kunz, christine.reiss, nicole.sator,|
+\urldef{\mailsc}\path|erika.siebert-cole, peter.strasser, lncs}@springer.com|    
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+
+\begin{document}
+
+\mainmatter  % start of an individual contribution
+
+% first the title is needed
+%\title{Machine Learning Method for Estimating Heterogeneous Causal Effects of the World Bank Projects}
+\title{Quantifying Heterogeneous Causal Treatment Effects in World Bank Aid Projects}
+% a short form should be given in case it is too long for the running head
+\titlerunning{Quantifying Heterogeneous Causal Treatment Effects}
+
+% the name(s) of the author(s) follow(s) next
+%
+% NB: Chinese authors should write their first names(s) in front of
+% their surnames. This ensures that the names appear correctly in
+% the running heads and the author index.
+%
+\author{Jianing Zhao\inst{1} \and Daniel M. Runfola\inst{2} \and Peter Kemper\inst{1} }
+%\thanks{Please note that the LNCS Editorial assumes that all authors have used
+%the western naming convention, with given names preceding surnames. This determines
+%the structure of the names in the running heads and the author index.}%
+%\and Ursula Barth\and Ingrid Haas\and Frank Holzwarth\and\\
+%Anna Kramer\and Leonie Kunz\and Christine Rei\ss\and\\
+%Nicole Sator\and Erika Siebert-Cole\and Peter Stra\ss er}
+%
+\authorrunning{Quantifying Heterogeneous Causal Treatment Effects}
+% (feature abused for this document to repeat the title also on left hand pages)
+
+% the affiliations are given next; don't give your e-mail address
+% unless you accept that it will be published
+\institute{College of William and Mary, Williamsburg, VA 23187-8795, USA\\
+\email{\{jzhao,kemper\}@cs.wm.edu}
+\and
+AidData, 427 Scotland Street, Williamsburg, VA. 23185 USA \\
+\email{drunfola@aiddata.org}
+}
+
+%
+% NB: a more complex sample for affiliations and the mapping to the
+% corresponding authors can be found in the file "llncs.dem"
+% (search for the string "\mainmatter" where a contribution starts).
+% "llncs.dem" accompanies the document class "llncs.cls".
+%
+
+\toctitle{Quantifying Heterogeneous Causal Treatment Effects}
+\tocauthor{Heterogeneous Treatment Effects}
+\maketitle
+
+%Jianing's abstract
+  
+ %In technical terms, we are interested in estimating heterogeneity in causal effects and conduct inference about the magnitude of the differences in project effects across subsets of world bank projects. To do so, we analyze a data set with data on world bank projects from 1982 to 2014 that contains project characteristics, geographical, and environmental data such as temperature and precipitation.
+% as well as spatial and spatially related information.  
+%The key challenge for this analysis is that the observational data does not allow us to directly measure the difference between the result of performing a project and of not performing a project as reality only gives us the choice to do one of the two.
+%Following recent research results by Athey and Imbens, we employ a combination of machine learning techniques such as random forests with techniques from causal inference to measure the average treatment effect, i.e. the average effect of a project, for subsets of geographic locations. We validate our findings with project evaluations from the world bank and outcomes of competing econometric models.
+
+\begin{abstract}
+
+The World Bank provides hundreds of millions of dollars in development finance to countries across the world every year.  In order to ensure these funds are being spent as effectively as possible, there is a natural drive to promote better understandings of what projects work and which don't.  However, the global extent of these projects results in a great deal of heterogeneity in impacts due to geographic, cultural, and other factors.  Recent research by Athey and Imbens has illustrated the potential for hybrid machine learning and causal inferential techniques which may be able to capture such heterogeneity.  We apply their approach using a geolocated dataset of World Bank projects, and augment this data with satellite-retrieved characteristics of their geographic context (including temperature, precipitation, slope, distance to urban areas, and many others).  We use this information in conjunction with causal tree(CT), transformed outcome tree (TOT), and random forest with TOT trees approaches to (a) segment the data into relevant 'control' and 'treatment' groups, and (b) examine the impact of World Bank projects on vegetative cover.  We contrast our findings with project evaluations from the World Bank, and outcomes of more traditional, empirical econometric models.
+\end{abstract}
+
+
+
+
+\input{sec_introduction}
+\input{sec_problem}
+\input{sec_data}
+\input{sec_experiments}
+\input{sec_relatedwork}
+
+\section{Conclusions}
+issues: number of control units in leaves
+
+precision of answers
+
+robustness of random forest for TOT
+
+spill over effect in spatial data (big project next to untreated case)
+
+spatial diversity in leaf nodes (not just diversity in values)
+\bibliographystyle{splncs03}
+\bibliography{bibtex}
+
+\end{document}

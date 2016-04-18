@@ -1,0 +1,872 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 APR 2016 13:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**wbpaper.tex
+(./wbpaper.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./llncs.cls
+Document Class: llncs 2014/03/31 v2.19 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen108
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count95
+)
+(./aliascnt.sty
+Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
+ (./remreset.sty))
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen112
+\tocsecnum=\dimen113
+\tocsectotal=\dimen114
+\tocsubsecnum=\dimen115
+\tocsubsectotal=\dimen116
+\tocsubsubsecnum=\dimen117
+\tocsubsubsectotal=\dimen118
+\tocparanum=\dimen119
+\tocparatotal=\dimen120
+\tocsubparanum=\dimen121
+\@tempcntc=\count97
+\fnindent=\dimen122
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen123
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen124
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@tempdima=\dimen128
+\caption@indent=\dimen129
+\caption@parindent=\dimen130
+\caption@hangindent=\dimen131
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
+tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
+fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
+tempboxa \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count116
+)
+\c@KVtest=\count117
+\sf@farskip=\skip45
+\sf@captopadj=\dimen132
+\sf@capskip=\skip46
+\sf@nearskip=\skip47
+\c@subfigure=\count118
+\c@subfigure@save=\count119
+\c@lofdepth=\count120
+\c@subtable=\count121
+\c@subtable@save=\count122
+\c@lotdepth=\count123
+\sf@top=\skip48
+\sf@bottom=\skip49
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count124
+\calc@Bcount=\count125
+\calc@Adimen=\dimen133
+\calc@Bdimen=\dimen134
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count126
+\calc@Cskip=\skip52
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count127
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+\AM@pagewidth=\dimen137
+\AM@pageheight=\dimen138
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box54
+\AM@toc@title=\toks20
+\c@AM@survey=\count128
+\AM@templatesizebox=\box55
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./wbpaper.aux)
+\openout1 = `wbpaper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box56
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen139
+\scratchbox=\box57
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen140
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 84.
+
+LaTeX Font Info:    No file OMScmtt.fd. on input line 84.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 84.
+
+(./sec_introduction.tex
+<figs/wbprojects.png, id=1, 1016.79875pt x 514.92375pt>
+File: figs/wbprojects.png Graphic file (type png)
+
+<use figs/wbprojects.png>
+Package pdftex.def Info: figs/wbprojects.png used on input line 30.
+(pdftex.def)             Requested size: 347.12354pt x 175.78674pt.
+
+
+LaTeX Warning: Citation `worldbankwebsite' on page 1 undefined on input line 38
+.
+
+
+LaTeX Warning: Reference `fig:wbprojects' on page 1 undefined on input line 39.
+
+
+[1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `Breiman:2001:RF:570181.570182' on page 2 undefined on 
+input line 53.
+
+
+LaTeX Warning: Citation `breiman1984classification' on page 2 undefined on inpu
+t line 53.
+
+
+LaTeX Warning: Citation `Tibshirani94regressionshrinkage' on page 2 undefined o
+n input line 53.
+
+
+LaTeX Warning: Citation `Vapnik1998' on page 2 undefined on input line 53.
+
+
+LaTeX Warning: Citation `1504.01132' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Citation `Imbens:2015:CIS:2764565' on page 2 undefined on input 
+line 55.
+
+[2 <./figs/wbprojects.png>]) (./sec_problem.tex
+
+LaTeX Warning: Citation `RePEc:ecm:emetrp:v:71:y:2003:i:4:p:1161-1189' on page 
+3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Athey' on page 3 undefined on input line 22.
+
+
+LaTeX Warning: Citation `rose:rubi:cent:1983' on page 3 undefined on input line
+ 37.
+
+
+LaTeX Warning: Citation `HoImaKin07' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `eq:4' on page 3 undefined on input line 45.
+
+[3]
+
+LaTeX Warning: Citation `1504.01132' on page 4 undefined on input line 50.
+
+
+LaTeX Warning: Reference `eq:5' on page 4 undefined on input line 50.
+
+
+Overfull \hbox (34.7109pt too wide) detected at line 56
+[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X[]\OT1/cmr/m/n/10 ) = [] \OML/cmm/m/it/1
+0 Y[] \OMS/cmsy/m/n/10 ^^A [][]  ^^@ [] \OML/cmm/m/it/10 Y[] \OMS/cmsy/m/n/10 ^
+^A []
+ []
+
+
+LaTeX Warning: Reference `eq:6' on page 4 undefined on input line 60.
+
+
+LaTeX Warning: Reference `eq:7' on page 4 undefined on input line 65.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+LaTeX Warning: Reference `eq:8' on page 4 undefined on input line 71.
+
+[4]
+
+LaTeX Warning: Reference `eq:10' on page 5 undefined on input line 82.
+
+) (./sec_data.tex
+Underfull \hbox (badness 1199) in paragraph at lines 10--10
+[]\OT1/cmr/m/n/9 NASA Long Term Data Record
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]$\OT1/cmtt/m/n/9 http : / / ltdr . nascom . nasa . gov / cgi-[]bin /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]$\OT1/cmtt/m/n/9 http : / / aiddata . org / level1 / geocoded /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]$\OT1/cmtt/m/n/9 http : / / hydrosheds . cr . usgs . gov / index .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]$\OT1/cmtt/m/n/9 http : / / hydrosheds . cr . usgs . gov / index .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]$\OT1/cmtt/m/n/9 http : / / sedac . ciesin .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\OT1/cmtt/m/n/9 columbia . edu / data / set /
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/9 Accessibility to Ur-
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/9 European Com-mis-sion Joint Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]$\OT1/cmtt/m/n/9 http : / / forobs . jrc . ec . europa . eu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]$\OT1/cmtt/m/n/9 http : / / sedac . ciesin . columbia . edu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]$\OT1/cmtt/m/n/9 http : / / climate . geog . udel . edu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]$\OT1/cmtt/m/n/9 http : / / climate . geog . udel . edu /
+ []
+
+
+Overfull \hbox (59.61499pt too wide) in paragraph at lines 7--24
+ [] 
+ []
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+
+LaTeX Warning: Reference `table:data' on page 7 undefined on input line 49.
+
+
+LaTeX Warning: Reference `fig:ndvi' on page 7 undefined on input line 50.
+
+
+LaTeX Warning: Reference `fig:ndvi' on page 7 undefined on input line 51.
+
+[7]
+Package epstopdf Info: Source file: <figs/ndvi.eps>
+(epstopdf)                    date: 2016-04-16 11:51:38
+(epstopdf)                    size: 156600 bytes
+(epstopdf)             Output file: <figs/ndvi-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-16 11:52:11
+(epstopdf)                    size: 224695 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/ndvi-eps-converted-to
+.pdf figs/ndvi.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+ <figs/ndvi-eps-converted-to.pdf, id=45, 451.6875pt x 451.6875pt>
+File: figs/ndvi-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/ndvi-eps-converted-to.pdf>
+Package pdftex.def Info: figs/ndvi-eps-converted-to.pdf used on input line 64.
+(pdftex.def)             Requested size: 173.56177pt x 173.56595pt.
+Package epstopdf Info: Source file: <figs/ndvitrend.eps>
+(epstopdf)                    date: 2016-04-16 11:48:50
+(epstopdf)                    size: 15930 bytes
+(epstopdf)             Output file: <figs/ndvitrend-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-16 11:52:12
+(epstopdf)                    size: 23248 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/ndvitrend-eps-convert
+ed-to.pdf figs/ndvitrend.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/ndvitrend-eps-converted-to.pdf, id=46, 451.6875pt x 451.6875pt>
+File: figs/ndvitrend-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/ndvitrend-eps-converted-to.pdf>
+Package pdftex.def Info: figs/ndvitrend-eps-converted-to.pdf used on input line
+ 65.
+(pdftex.def)             Requested size: 173.56177pt x 173.56595pt.
+
+Overfull \hbox (3.08331pt too wide) in paragraph at lines 64--66
+[][][] 
+ []
+
+
+LaTeX Warning: Reference `fig:ndvi' on page 8 undefined on input line 78.
+
+[8]
+Underfull \vbox (badness 5939) has occurred while \output is active []
+
+ [9 <./figs/ndvi-eps-converted-to.pdf> <./figs/ndvitrend-eps-converted-to.pdf>]
+)
+(./sec_experiments.tex
+
+LaTeX Warning: Citation `cart' on page 10 undefined on input line 4.
+
+
+LaTeX Warning: Reference `eq:5' on page 10 undefined on input line 4.
+
+
+LaTeX Warning: Citation `rf' on page 10 undefined on input line 4.
+
+[10] [11]
+Overfull \hbox (45.97502pt too wide) in paragraph at lines 56--66
+ [] 
+ []
+
+Package epstopdf Info: Source file: <figs/goodrank.eps>
+(epstopdf)                    date: 2016-04-12 15:57:39
+(epstopdf)                    size: 5565 bytes
+(epstopdf)             Output file: <figs/goodrank-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-12 15:59:09
+(epstopdf)                    size: 11303 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/goodrank-eps-converte
+d-to.pdf figs/goodrank.eps>
+(epstopdf)             \includegraphics on input line 74.
+Package epstopdf Info: Output file is already uptodate.
+<figs/goodrank-eps-converted-to.pdf, id=80, 443.6575pt x 189.70876pt>
+File: figs/goodrank-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/goodrank-eps-converted-to.pdf>
+Package pdftex.def Info: figs/goodrank-eps-converted-to.pdf used on input line 
+74.
+(pdftex.def)             Requested size: 104.1381pt x 44.52945pt.
+Package epstopdf Info: Source file: <figs/badrank.eps>
+(epstopdf)                    date: 2016-04-12 15:57:32
+(epstopdf)                    size: 5950 bytes
+(epstopdf)             Output file: <figs/badrank-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-12 15:59:10
+(epstopdf)                    size: 11541 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/badrank-eps-converted
+-to.pdf figs/badrank.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/badrank-eps-converted-to.pdf, id=81, 443.6575pt x 189.70876pt>
+File: figs/badrank-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/badrank-eps-converted-to.pdf>
+Package pdftex.def Info: figs/badrank-eps-converted-to.pdf used on input line 7
+5.
+(pdftex.def)             Requested size: 104.1381pt x 44.52945pt.
+Package epstopdf Info: Source file: <figs/moderaterank.eps>
+(epstopdf)                    date: 2016-04-12 15:57:25
+(epstopdf)                    size: 5060 bytes
+(epstopdf)             Output file: <figs/moderaterank-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-12 15:59:11
+(epstopdf)                    size: 11156 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/moderaterank-eps-conv
+erted-to.pdf figs/moderaterank.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/moderaterank-eps-converted-to.pdf, id=82, 443.6575pt x 189.70876pt>
+File: figs/moderaterank-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/moderaterank-eps-converted-to.pdf>
+Package pdftex.def Info: figs/moderaterank-eps-converted-to.pdf used on input l
+ine 76.
+(pdftex.def)             Requested size: 104.1381pt x 44.52945pt.
+
+<figs/econmap.png, id=83, 1191.45125pt x 408.52625pt>
+File: figs/econmap.png Graphic file (type png)
+ <use figs/econmap.png>
+Package pdftex.def Info: figs/econmap.png used on input line 83.
+(pdftex.def)             Requested size: 121.49535pt x 41.65291pt.
+
+<figs/rfmap.png, id=84, 1186.4325pt x 514.92375pt>
+File: figs/rfmap.png Graphic file (type png)
+ <use figs/rfmap.png>
+Package pdftex.def Info: figs/rfmap.png used on input line 84.
+(pdftex.def)             Requested size: 121.49535pt x 52.72894pt.
+
+<figs/wbieg.png, id=85, 1166.3575pt x 492.84125pt>
+File: figs/wbieg.png Graphic file (type png)
+ <use figs/wbieg.png>
+Package pdftex.def Info: figs/wbieg.png used on input line 85.
+(pdftex.def)             Requested size: 121.49535pt x 51.33249pt.
+
+Overfull \hbox (20.44582pt too wide) in paragraph at lines 83--86
+[][][][] 
+ []
+
+<figs/econeu.png, id=86, 1053.9375pt x 503.8825pt>
+File: figs/econeu.png Graphic file (type png)
+ <use figs/econeu.png>
+Package pdftex.def Info: figs/econeu.png used on input line 90.
+(pdftex.def)             Requested size: 121.49535pt x 58.07982pt.
+
+<figs/rfeu.png, id=87, 1073.00874pt x 523.9575pt>
+File: figs/rfeu.png Graphic file (type png)
+ <use figs/rfeu.png>
+Package pdftex.def Info: figs/rfeu.png used on input line 91.
+(pdftex.def)             Requested size: 121.49535pt x 59.32243pt.
+
+<figs/iegeu.png, id=88, 1051.93pt x 493.845pt>
+File: figs/iegeu.png Graphic file (type png)
+ <use figs/iegeu.png>
+Package pdftex.def Info: figs/iegeu.png used on input line 92.
+(pdftex.def)             Requested size: 121.49535pt x 57.03587pt.
+
+Overfull \hbox (20.44582pt too wide) in paragraph at lines 90--93
+[][][][] 
+ []
+
+<figs/projectsbyleafct.png, id=89, 1262.7175pt x 522.95375pt>
+File: figs/projectsbyleafct.png Graphic file (type png)
+
+<use figs/projectsbyleafct.png>
+Package pdftex.def Info: figs/projectsbyleafct.png used on input line 100.
+(pdftex.def)             Requested size: 173.56177pt x 71.88042pt.
+
+<figs/projectsbyleaftot.png, id=90, 1265.72874pt x 508.90125pt>
+File: figs/projectsbyleaftot.png Graphic file (type png)
+
+<use figs/projectsbyleaftot.png>
+Package pdftex.def Info: figs/projectsbyleaftot.png used on input line 101.
+(pdftex.def)             Requested size: 173.56177pt x 69.77806pt.
+
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
+ [12 <./figs/goodrank-eps-converted-to.pdf> <./figs/badrank-eps-converted-to.pd
+f> <./figs/moderaterank-eps-converted-to.pdf> <./figs/econmap.png> <./figs/rfma
+p.png> <./figs/wbieg.png>]
+Package epstopdf Info: Source file: <figs/varimp2004.eps>
+(epstopdf)                    date: 2016-04-11 15:53:35
+(epstopdf)                    size: 7310 bytes
+(epstopdf)             Output file: <figs/varimp2004-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-13 10:34:25
+(epstopdf)                    size: 13726 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/varimp2004-eps-conver
+ted-to.pdf figs/varimp2004.eps>
+(epstopdf)             \includegraphics on input line 114.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/varimp2004-eps-converted-to.pdf, id=127, 505.89pt x 505.89pt>
+File: figs/varimp2004-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/varimp2004-eps-converted-to.pdf>
+Package pdftex.def Info: figs/varimp2004-eps-converted-to.pdf used on input lin
+e 114.
+(pdftex.def)             Requested size: 208.27623pt x 208.28079pt.
+Package epstopdf Info: Source file: <figs/hist_wb.eps>
+(epstopdf)                    date: 2016-04-01 14:26:17
+(epstopdf)                    size: 6809 bytes
+(epstopdf)             Output file: <figs/hist_wb-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-13 14:32:53
+(epstopdf)                    size: 12343 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/hist_wb-eps-converted
+-to.pdf figs/hist_wb.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/hist_wb-eps-converted-to.pdf, id=128, 443.6575pt x 189.70876pt>
+File: figs/hist_wb-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/hist_wb-eps-converted-to.pdf>
+Package pdftex.def Info: figs/hist_wb-eps-converted-to.pdf used on input line 1
+20.
+(pdftex.def)             Requested size: 347.12354pt x 148.42958pt.
+
+<figs/project_2004.pdf, id=129, page=84, 505.89pt x 505.89pt>
+File: figs/project_2004.pdf Graphic file (type pdf)
+
+<use figs/project_2004.pdf, page 84>
+Package pdftex.def Info: figs/project_2004.pdf, page84 used on input line 127.
+(pdftex.def)             Requested size: 208.27623pt x 208.28079pt.
+
+
+LaTeX Warning: Reference `fig:varimp' on page 13 undefined on input line 134.
+
+[13 <./figs/econeu.png> <./figs/rfeu.png> <./figs/iegeu.png> <./figs/projectsby
+leafct.png> <./figs/projectsbyleaftot.png>] [14 <./figs/varimp2004-eps-converte
+d-to.pdf> <./figs/hist_wb-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:ieg' on page 15 undefined on input line 143.
+
+
+LaTeX Warning: Reference `fig:rf' on page 15 undefined on input line 143.
+
+[15 <./figs/project_2004.pdf>]
+
+LaTeX Warning: Reference `fig:leaf' on page 16 undefined on input line 147.
+
+) (./sec_relatedwork.tex
+
+LaTeX Warning: Citation `Pearl:2000:CMR:331969' on page 16 undefined on input l
+ine 2.
+
+
+LaTeX Warning: Citation `journals/jmlr/SuTWNL09' on page 16 undefined on input 
+line 4.
+
+
+LaTeX Warning: Citation `1504.01132' on page 16 undefined on input line 4.
+
+
+LaTeX Warning: Citation `1510.04342' on page 16 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Denil:2014' on page 16 undefined on input line 5.
+
+
+LaTeX Warning: Citation `1412.8563' on page 16 undefined on input line 6.
+
+
+LaTeX Warning: Citation `hirano2003efficient' on page 16 undefined on input lin
+e 8.
+
+
+LaTeX Warning: Citation `Meinshausen:2006:QRF:1248547.1248582' on page 16 undef
+ined on input line 9.
+
+
+LaTeX Warning: Citation `Biau:2012:ARF:2503308.2343682' on page 16 undefined on
+ input line 10.
+
+
+LaTeX Warning: Citation `Wager:2014:CIR:2627435.2638587' on page 16 undefined o
+n input line 10.
+
+
+LaTeX Warning: Citation `Denil:2014' on page 16 undefined on input line 10.
+
+) (./wbpaper.bbl [16]) [17] (./wbpaper.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4878 strings out of 493089
+ 72921 string characters out of 6134842
+ 149631 words of memory out of 5000000
+ 8261 multiletter control sequences out of 15000+600000
+ 10434 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,14n,47p,1512b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on wbpaper.pdf (17 pages, 7537491 bytes).
+PDF statistics:
+ 232 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+

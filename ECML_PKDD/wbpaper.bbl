@@ -1,0 +1,96 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{1504.01132}
+Athey, S., Imbens, G.: Recursive partitioning for heterogeneous causal effects
+  (2015)
+
+\bibitem{Biau:2012:ARF:2503308.2343682}
+Biau, G.: Analysis of a random forests model. J. Mach. Learn. Res.  13(1),
+  1063--1095 (Apr 2012),
+  \url{http://dl.acm.org/citation.cfm?id=2503308.2343682}
+
+\bibitem{breiman1984classification}
+Breiman, L., Friedman, J., Stone, C., Olshen, R.: Classification and Regression
+  Trees. The Wadsworth and Brooks-Cole statistics-probability series, Taylor \&
+  Francis (1984), \url{https://books.google.com/books?id=JwQx-WOmSyQC}
+
+\bibitem{Breiman:2001:RF:570181.570182}
+Breiman, L.: Random forests. Mach. Learn.  45(1),  5--32 (Oct 2001),
+  \url{http://dx.doi.org/10.1023/A:1010933404324}
+
+\bibitem{Denil:2014}
+Denil, M., Matheson, D., de~Freitas, N.: Narrowing the gap: Random forests in
+  theory and in practice. In: International Conference on Machine Learning
+  (ICML) (2014)
+
+\bibitem{RePEc:ecm:emetrp:v:71:y:2003:i:4:p:1161-1189}
+Hirano, K., Imbens, G., Ridder, G.: Efficient estimation of average treatment
+  effects using the estimated propensity score. Econometrica  71(4),
+  1161--1189 (2003),
+  \url{http://EconPapers.repec.org/RePEc:ecm:emetrp:v:71:y:2003:i:4:p:1161-1189}
+
+\bibitem{hirano2003efficient}
+Hirano, K., Imbens, G.W., Ridder, G.: Efficient estimation of average treatment
+  effects using the estimated propensity score. Econometrica  71(4),
+  1161--1189 (2003)
+
+\bibitem{HoImaKin07}
+Ho, D., Imai, K., King, G., Stuart, E.: Matching as nonparametric preprocessing
+  for reducing model dependence in parametric causal inference. Political
+  Analysis  15,  199{\textendash}236 (2007)
+
+\bibitem{Imbens:2015:CIS:2764565}
+Imbens, G.W., Rubin, D.B.: Causal Inference for Statistics, Social, and
+  Biomedical Sciences: An Introduction. Cambridge University Press, New York,
+  NY, USA (2015)
+
+\bibitem{rf}
+Liaw, A., Wiener, M.: Classification and regression by randomforest. R News
+  2(3),  18--22 (2002), \url{http://CRAN.R-project.org/doc/Rnews/}
+
+\bibitem{Meinshausen:2006:QRF:1248547.1248582}
+Meinshausen, N.: Quantile regression forests. J. Mach. Learn. Res.  7,
+  983--999 (Dec 2006), \url{http://dl.acm.org/citation.cfm?id=1248547.1248582}
+
+\bibitem{Pearl:2000:CMR:331969}
+Pearl, J.: Causality: Models, Reasoning, and Inference. Cambridge University
+  Press, New York, NY, USA (2000)
+
+\bibitem{rose:rubi:cent:1983}
+Rosenbaum, P.R., Rubin, D.B.: The central role of the propensity score in
+  observational studies for causal effects. Biometrika  70,  41--55 (1983)
+
+\bibitem{journals/jmlr/SuTWNL09}
+Su, X., Tsai, C.L., Wang, H., Nickerson, D.M., Li, B.: Subgroup analysis via
+  recursive partitioning. Journal of Machine Learning Research  10,  141--158
+  (2009), \url{http://dblp.uni-trier.de/db/journals/jmlr/jmlr10.html#SuTWNL09}
+
+\bibitem{1412.8563}
+Taddy, M., Gardner, M., Chen, L., Draper, D.: A nonparametric bayesian analysis
+  of heterogeneous treatment effects in digital experimentation (2014)
+
+\bibitem{cart}
+Therneau, T., Atkinson, B., Ripley, B.: rpart: Recursive Partitioning and
+  Regression Trees (2015), \url{http://CRAN.R-project.org/package=rpart}, r
+  package version 4.1-9
+
+\bibitem{Tibshirani94regressionshrinkage}
+Tibshirani, R.: Regression shrinkage and selection via the lasso. Journal of
+  the Royal Statistical Society, Series B  58,  267--288 (1994)
+
+\bibitem{Vapnik1998}
+Vapnik, V.N.: Statistical Learning Theory. Wiley-Interscience (1998)
+
+\bibitem{1510.04342}
+Wager, S., Athey, S.: Estimation and inference of heterogeneous treatment
+  effects using random forests (2015)
+
+\bibitem{Wager:2014:CIR:2627435.2638587}
+Wager, S., Hastie, T., Efron, B.: Confidence intervals for random forests: The
+  jackknife and the infinitesimal jackknife. J. Mach. Learn. Res.  15(1),
+  1625--1651 (Jan 2014),
+  \url{http://dl.acm.org/citation.cfm?id=2627435.2638587}
+
+\end{thebibliography}
